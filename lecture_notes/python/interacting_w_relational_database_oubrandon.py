@@ -66,7 +66,7 @@ stocks = [
 # connect to db
 
 # update with your path to the database
-path_to_db = "C:/Users/oubra/anaconda3/Lib/site-packages/sqlalchemy/dialects/sqlite"    
+path_to_db = "~/anaconda3/Lib/site-packages/sqlalchemy/dialects/sqlite/stocks.db"    
 
 # create db connection
 conn = sqlite3.connect(path_to_db)
